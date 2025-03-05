@@ -1,14 +1,21 @@
 public class Main {
     public static void main(String [] args) {
 
-        int result = 0 ;
+        int resultA;
         int a = 0;
         int b = 2;
         
 
-        result = a + b;
-        System.out.println("result의 값은 " + result);
+        resultA = a + b;
+        System.out.println("result의 값은 " + resultA);
         // 첫번째 test
+        
+        int resultB;
+        int c = 4;
+        int d = 9;
+
+        resultB = d-c;
+        System.out.println("result의 값은 " + resultB);
 
     }
     
