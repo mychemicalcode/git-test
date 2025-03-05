@@ -14,7 +14,7 @@ public class Main {
         int c = 4;
         int d = 9;
 
-        resultB = d-c;
+        resultB = d-c+a;
         System.out.println("result의 값은 " + resultB);
 
     }
